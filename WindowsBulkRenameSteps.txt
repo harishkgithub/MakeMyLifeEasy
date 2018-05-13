@@ -1,0 +1,12 @@
+Step 1:
+	Open Start button search for "WIndows Power shell"
+Step 2:Run following command	
+cd K:\AbhiRamBroPhaneendraPics\2018_05_08\GoodPics
+
+$source = "K:\AbhiRamBroPhaneendraPics\2018_05_08\GoodPics"
+Get-ChildItem -Path $source "_*.JPG" | ForEach-Object {
+   $existingName, $hex_name, $rest = ($_.BaseName).Split('()')
+   $newName = $existingName -replace "^_", "I"
+   echo "Renaming " $existingName " to " $newName   
+   Rename-Item -Path $_ -NewName ($newName + $_.Extension)
+}
