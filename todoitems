@@ -1,0 +1,3 @@
+TODO Utilities
+Convert nested json as string column inside csv file to dataframe or exploded verison using spark 2 and 1.6.0
+convert xxml string file to cs
