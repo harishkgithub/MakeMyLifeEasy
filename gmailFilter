@@ -1,0 +1,3 @@
+subject:("Pothys" OR "TechGig Latest News " OR "neuvoo.co.in" OR "expertjobs" OR "hirist.com" OR "TechGig Webinar" OR "StashFin" OR "Sharekhan" OR "Religare Health Insurance" OR "SBI Card Elite" OR "Cars 24 Team")
+Removed 500 and myntra to avoid job offers
+subject:("Pothys" OR "TechGig Latest News " OR "neuvoo.co.in" OR "expertjobs" OR "hirist.com" OR "TechGig Webinar" OR "StashFin" OR "Sharekhan" OR "Myntra" OR "Religare Health Insurance" OR "Rs.500" OR "SBI Card Elite" OR "Cars 24 Team")
